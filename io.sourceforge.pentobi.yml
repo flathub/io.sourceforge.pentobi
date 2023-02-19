@@ -1,6 +1,6 @@
 app-id: io.sourceforge.pentobi
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: 6.2
 sdk: org.kde.Sdk
 command: pentobi
 rename-icon: pentobi
@@ -21,8 +21,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/enz/pentobi.git
-        tag: v20.0
-        commit: 9cb6148655893caed8e5007f4a1c9e07fa684ec3
+        tag: v22.1
+        commit: 2dc54e33f92a1634434d66a2b67f59754a7dabf0
         x-checker-data:
           type: git
-          tag-pattern: ^([\d.]+)$
+          tag-pattern: ^(v[\d.]+)$

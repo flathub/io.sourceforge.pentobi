@@ -1,6 +1,6 @@
 app-id: io.sourceforge.pentobi
 runtime: org.kde.Platform
-runtime-version: 6.2
+runtime-version: 6.4
 sdk: org.kde.Sdk
 command: pentobi
 rename-icon: pentobi
@@ -14,15 +14,11 @@ finish-args:
 modules:
   - name: pentobi
     buildsystem: cmake
-    config-opts:
-      - -DDOCBOOKXSL_DIR=/usr/share/xml/docbook/xml/xsl-stylesheets
-      - -DPENTOBI_BUILD_KDE_THUMBNAILER=OFF
-      - -DPENTOBI_OPEN_HELP_EXTERNALLY=ON
     sources:
       - type: git
         url: https://github.com/enz/pentobi.git
-        tag: v22.1
-        commit: 2dc54e33f92a1634434d66a2b67f59754a7dabf0
+        tag: v23.0
+        commit: 384020a32673a95a01a4d880b83043790c358ff2
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$

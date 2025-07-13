@@ -5,6 +5,7 @@ sdk: org.kde.Sdk
 command: pentobi
 rename-icon: pentobi
 finish-args:
+  - --device=dri
   - --share=ipc
   - --socket=wayland
   - --socket=fallback-x11

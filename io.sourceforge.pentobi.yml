@@ -16,8 +16,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/enz/pentobi.git
-        tag: v27.1
-        commit: 2aec0def914125c575a6265afa1f5a5fb6c34713
+        tag: v28.0
+        commit: a281c1c82064352b38eac4875c89de8d6ca00069
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
